@@ -5,7 +5,7 @@ body {
 }
 
 .btn {
-    transition: all 1.3s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 @media(max-width:768px) {
@@ -122,4 +122,87 @@ body {
     background-color: transparent;
     border: 1px solid #be2835;
     color: #be2835;
+}
+
+/*WORK*/
+
+#work {
+    padding: 5rem 0;
+}
+
+#work .work-img {
+    position: relative;
+}
+
+#work .work-img .img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/eye.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.9s ease-in-out;
+    width: 100%;
+    z-index: 0;
+}
+
+#work .work-img .img-overlay:hover {
+    opacity: 1;
+    z-index: 1;
+}
+
+/*WHY*/
+
+#why {
+    background-color: #f6f6f6;
+    padding: 5rem 0;
+}
+
+#why .fa {
+    color: #be2835;
+    padding: 15px 0;
+}
+
+/*CUSTOMERS*/
+
+#customers {
+    padding: 5rem 0;
+}
+
+#customers .carousel-indicators li {
+    background-color: #be2835;
+}
+
+#customers .carousel-inner {
+    margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+    margin-bottom: -50px;
+}
+
+/*PRICING*/
+
+#pricing {
+    background-color: #f6f6f6;
+    padding: 5rem 0;
+}
+
+#pricing .card .card-header {
+    background-color: #6e6e6e;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#pricing .card .card-header:hover {
+    background-color: #be2835;
+}
+
+#pricing .card .standard {
+    background-color: #be2835;
+    font-size: 1.3em;
+    padding: 15px 0;
 }
