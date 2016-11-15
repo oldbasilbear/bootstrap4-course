@@ -1,3 +1,22 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.btn {
+    transition: all 1.3s ease-in-out;
+}
+
+@media(max-width:768px) {
+    #header {
+        text-align: center;
+    }
+    #header img {
+        margin: 0 auto;
+    }
+}
+
 .navbar {
     background-color: rgba(21, 31, 33, 0.5);
     border-bottom: 1px solid #dedede;
@@ -15,4 +34,39 @@
 
 .navbar-toggler {
     color: #fff;
+}
+
+
+/*HEADER*/
+
+#header {
+    align-items: center;
+    background: url('../img/stars-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    height: 100%;
+}
+
+#header img {
+    padding-top: 20px;
+    width: 80%;
+}
+
+#header .header-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#header .fa {
+    margin: 5% 0;
+}
+
+#header a .fa {
+    color: #fff;
+}
+
+#header a .fa:hover {
+    color: #933;
 }
