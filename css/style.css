@@ -18,8 +18,12 @@ body {
     #social {
         text-align: center;
     }
-    #social hr {
+    #social hr, #who hr {
         margin: 8% auto;
+    }
+    #who {
+        margin: 8% auto;
+        text-align: center;
     }
 }
 
@@ -99,4 +103,23 @@ body {
 #social .fa:hover {
     background-color: #be2835;
     color: #fff;
+}
+
+/*WHO*/
+
+#who {
+    background: #f6f6f6;
+    padding: 5rem 0;
+}
+
+#who .btn-who {
+    background: #be2835;
+    color: #fff;
+    width: 50%;
+}
+
+#who .btn-who:hover {
+    background-color: transparent;
+    border: 1px solid #be2835;
+    color: #be2835;
 }
