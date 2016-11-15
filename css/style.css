@@ -15,6 +15,12 @@ body {
     #header img {
         margin: 0 auto;
     }
+    #social {
+        text-align: center;
+    }
+    #social hr {
+        margin: 8% auto;
+    }
 }
 
 .navbar {
@@ -69,4 +75,28 @@ body {
 
 #header a .fa:hover {
     color: #933;
+}
+
+/*SOCIAL*/
+
+#social {
+    padding: 4.25rem 0;
+}
+
+#social .fa {
+    font-size: 1.5em;
+    border: 2px solid #be2835;
+    border-radius: 15px;
+    color: #be2835;
+    height: 60px;
+    margin-top: 10px;
+    padding: 30% 0;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    width: 60px;
+}
+
+#social .fa:hover {
+    background-color: #be2835;
+    color: #fff;
 }
